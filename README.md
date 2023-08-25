@@ -3,5 +3,6 @@
 ## Description
 Banking system developed with the following technologies:
 
-- Java Spring Boot 3
-- MySQL
+- Java 17
+- Spring Boot3.1.2
+- MySQL 8
