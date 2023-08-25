@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+
+  mysql:
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Bg9FrdmCk*dLGIre
+      MYSQL_DATABASE: bancario_db
+      MYSQL_USER: bancario_usr
+      MYSQL_PASSWORD: Bg9FrdmCk*dLGIre
+    volumes:
+      - mysql_data:/var/lib/mysql
+    ports:
+      - '3306:3306'
+
+volumes:
+  mysql_data:
